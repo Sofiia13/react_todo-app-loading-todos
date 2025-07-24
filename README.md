@@ -4,6 +4,8 @@ You goal is to implement a simple Todo App that will save all changes to [the AP
 
 > Here is [the working example](https://mate-academy.github.io/react_todo-app-with-api/)
 
+https://mate.academy/students-api/todos?userId=3273
+
 The task consists of 3 part:
 - (This repo) [Load todos](https://github.com/mate-academy/react_todo-app-loading-todos)
 - [Add and Delete](https://github.com/mate-academy/react_todo-app-add-and-delete)
