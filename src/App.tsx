@@ -75,7 +75,9 @@ export const App: React.FC = () => {
         <TodoList todos={filteredTodos} />
 
         {/* Hide the footer if there are no todos */}
-        <TodoFooter todos={todos} filter={filter} setFilter={setFilter} />
+        {todos && todos.length > 0 && (
+          <TodoFooter todos={todos} filter={filter} setFilter={setFilter} />
+        )}
       </div>
 
       {/* DON'T use conditional rendering to hide the notification */}
